@@ -8,6 +8,5 @@ class RepositoriesController < ApplicationController
     Github.get 'https://api.github.com/search/repositories' do |req|
       binding.pry
     end
-
   end
 end
